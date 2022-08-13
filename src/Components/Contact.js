@@ -23,7 +23,7 @@ const Contact = () => {
         setState({name:state.name,email:state.email,message:'',a:1});
 
         setTimeout(setfinal,2950);
-        let response = await fetch('http://localhost:3000/contact', {
+        let response = await fetch('https://desolate-brushlands-65843.herokuapp.com/contact', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
