@@ -25,6 +25,7 @@ const Contact = () => {
         setTimeout(setfinal,2950);
         let response = await fetch('https://desolate-brushlands-65843.herokuapp.com/contact', {
             method: 'POST',
+            mode: "cors",
             headers: {
                 'Content-Type': 'application/json'
             },
