@@ -42,7 +42,7 @@ const Home = () => {
                     <h1 className="text-center text-4xl mb-4">Mohammed Husain</h1>
                     <img src="./images/myphoto.png" className="w-96 m-auto items-center" />
                 </div>
-                <div className="md:w-3/5 m-4 mt-16 ">
+                <div className="md:w-3/5 m-4 mt-16 h-24">
                     <p className="md:text-xl text-lg font-light md:p-8">Hey there,
                     <br/>
                     {state}</p>

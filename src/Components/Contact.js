@@ -79,13 +79,13 @@ const Contact = () => {
                 <div className="w-5/6 shadow-lg hover:shadow-2xl px-4">
                     <form className="my-8" onSubmit={handleSubmit}>
 
-                        <label for="name">Name:</label>
-                        <input id="name" value={state.name} name="name" onChange={(e)=>{setState({name:e.target.value,email:state.email,message:state.message,a:0})}} type="text" className="p-1 w-3/4 mx-2 mb-6 shadow-lg text-base border-2 border-yellow-400" />
+                        <label for="name" className="">Name:</label>
+                        <input id="name" value={state.name} name="name" onChange={(e)=>{setState({name:e.target.value,email:state.email,message:state.message,a:0})}} type="text" className="p-1 w-3/4 mx-2  mb-0 sm:mb-6 shadow-lg text-base border-2 block mt-2 sm:mt-0 sm:inline-block border-yellow-400" />
                         <br/>
                         <label for="email">Email: </label>
-                        <input id="email" name="email" value={state.email} type="email" onChange={(e)=>setState({name:state.name,email:e.target.value,message:state.message,a:0})} className="p-1 w-3/4 mx-2 shadow-lg  text-base border-2 border-yellow-400" required />
+                        <input id="email" name="email" value={state.email} type="email" onChange={(e)=>setState({name:state.name,email:e.target.value,message:state.message,a:0})} className="p-1 w-3/4 mx-2 mb-0 sm:mb-6 shadow-lg  text-base border-2 border-yellow-400 block sm:inline-block mt-2 sm:mt-0" required />
                         <br/>
-                        <label className="block mt-6 mb-1" for="message">Message: </label>
+                        <label className="block mb-1" for="message">Message: </label>
                         <textarea rows="5" type="text" id="message" value={state.message} onChange={(e)=>setState({name:state.name,email:state.email,message:e.target.value,a:0})} name="message" className="resize-none text-base p-1 w-full m-auto shadow-lg  border-2 border-yellow-400" required minLength={4}></textarea>
 
                         <button type="submit" className="inline-block m-auto bg-yellow-400 px-2 py-1  my-2 mt-4 rounded shadow-lg hover:shadow-xl text-lg">Send</button>
