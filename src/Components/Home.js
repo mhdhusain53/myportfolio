@@ -38,12 +38,14 @@ const Home = () => {
     return (
         <div className="mt-6">
             <div className="md:flex">
-                <div className="ml-5 md:w-2/5 mr-3">
+                <div className="ml-3 md:w-2/5 mr-2">
                     <h1 className="text-center text-4xl mb-4">Mohammed Husain</h1>
                     <img src="./images/myphoto.png" className="w-96 m-auto items-center" />
                 </div>
-                <div className="md:w-3/4 m-4 mt-16 ">
-                    <p className="md:text-xl text-lg font-light md:p-8">{state}</p>
+                <div className="md:w-3/5 m-4 mt-16 ">
+                    <p className="md:text-xl text-lg font-light md:p-8">Hey there,
+                    <br/>
+                    {state}</p>
                 </div>
             </div>
 
@@ -90,6 +92,12 @@ const Home = () => {
                     <p className="my-4">Wanna Need Help</p>
                     <a href="/contact" className="text-2xl hover:font-semibold hover:text-yellow-400">Contact Me</a>
                 </div>
+            </div>
+            
+            <div className="text-center text-xl hover:fill-yellow-400 hover:text-yellow-400">
+                <a href="/about" className="pr-2" >Know more about me</a>
+                <svg className="w-6 inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M502.6 278.6l-128 128c-12.51 12.51-32.76 12.49-45.25 0c-12.5-12.5-12.5-32.75 0-45.25L402.8 288H32C14.31 288 0 273.7 0 255.1S14.31 224 32 224h370.8l-73.38-73.38c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l128 128C515.1 245.9 515.1 266.1 502.6 278.6z" /></svg>
+
             </div>
 
         </div>

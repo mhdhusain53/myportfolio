@@ -24,7 +24,7 @@ const projects=[
         desc:"This is just a sign up page for newsletter where data is stored in backend.",
         link:"https://infinite-depths-81831.herokuapp.com/"
     },{
-        title:"Tanslator",
+        title:"Text Tanslator",
         desc:"In this website it uses google API to translate english text to many different languages.",
         link:"https://react-widgets53.herokuapp.com/translate"
     },{

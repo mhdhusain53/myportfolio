@@ -13,7 +13,8 @@ const About = () => {
                         Hey, I am
                         <span className=" font-medium text-xl md:text-2xl"> Mohammed Husain</span>
                         <br />
-                        A frontend and backend web developer, with a year of experience. I have develop many websites using MERN technology.</p>
+                        a Information Technology Engineer,
+                        and a frontend and backend web developer, with a year of experience. I have develop many websites using MERN technology.</p>
                 </div>
             </div>
 
