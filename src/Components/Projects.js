@@ -4,7 +4,7 @@ const Projects = () => {
 
     const project = projects.map((data) => {
         return <div className="w-5/6 m-auto text-center shadow-lg hover:shadow-2xl my-6">
-            <h1 className="text-xl font-normal">{data.title}l</h1>
+            <h1 className="text-xl font-normal">{data.title}</h1>
             <hr className="border-b border-yellow-400 my-2 w-5/6 m-auto" />
             <p className="text-base p-2 ">
                 {data.desc}
