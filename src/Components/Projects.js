@@ -3,13 +3,13 @@ import { projects } from "./data";
 const Projects = () => {
 
     const project = projects.map((data) => {
-        return <div className="w-5/6 m-auto text-center shadow-lg hover:shadow-2xl my-6">
-            <h1 className="text-xl font-normal">{data.title}</h1>
+        return <div className="w-5/6 m-auto px-2 text-center shadow-lg hover:shadow-2xl my-6">
+            <h1 className="sm:text-xl text-lg font-normal">{data.title}</h1>
             <hr className="border-b border-yellow-400 my-2 w-5/6 m-auto" />
-            <p className="text-base p-2 ">
+            <p className="sm:text-base text-sm p-2 ">
                 {data.desc}
             </p>
-            <a href={data.link} target="_blank" className="text-lg hover:font-semibold  hover:text-yellow-400">Check It</a>
+            <a href={data.link} target="_blank" className="sm:text-lg text-base font-medium hover:font-semibold  hover:text-yellow-400">Check It</a>
         </div>
     })
 

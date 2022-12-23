@@ -85,16 +85,16 @@ const About = () => {
             <div className="">
                 <h1 className="text-center text-4xl font-light ">Skills</h1>
                 <div className="md:m-20 md:mt-6 m-4 p-4 shadow-lg hover:shadow-2xl">
-                    <div className="flex my-3">{/*  primary */}
-                        <div className="underline decoration-yellow-400 underline-offset-4	ml-4 w-1/5  md:w-1/3 text-lg  md:text-xl items-center justify-center flex font-normal text-center">
+                    <div className="flex my-3 ">{/*  primary */}
+                        <div className="underline decoration-yellow-400 underline-offset-4	ml-4 w-1/5  md:w-1/3   text-base  md:text-xl items-center justify-center flex font-normal text-center">
                             FrontEnd
                         </div>
-                        <div className=" w-4/5 md:w-2/3 text-sm md:text-lg text-center  p-2 mx-4">
-                            <span className="px-3" > HTML </span>
-                            <span className="px-3" > CSS </span>
-                            <span className="px-3" > Tailwind CSS </span>
-                            <span className="px-3" > JavaScript </span>
-                            <span className="px-3" > React </span>
+                        <div className=" w-4/5 md:w-2/3 text-sm md:text-lg font-normal text-center  p-2 mx-4">
+                            <span className="px-1" > HTML </span>
+                            <span className="px-1" > CSS </span>
+                            <span className="px-1" > Tailwind CSS </span>
+                            <span className="px-1" > JavaScript </span>
+                            <span className="px-1" > React </span>
                         </div>
 
                     </div>
@@ -103,9 +103,9 @@ const About = () => {
                             BackEnd
                         </div>
                         <div className="w-4/5 md:w-2/3 text-sm md:text-lg text-center  p-2 mx-4">
-                            <span className="px-3" > Node </span>
-                            <span className="px-3" > Express </span>
-                            <span className="px-3" > Mongoose </span>
+                            <span className="px-1" > Node </span>
+                            <span className="px-1" > Express </span>
+                            <span className="px-1" > Mongoose </span>
 
                         </div>
 
@@ -115,7 +115,8 @@ const About = () => {
                             Database
                         </div>
                         <div className="w-4/5 md:w-2/3 text-sm md:text-lg text-center  p-2 mx-4">
-                            <span className="px-3" > Mongodb </span>
+                            <span className="px-1" > Mongodb </span>
+                            <span className="px-1" > MySQL </span>
 
                         </div>
 
@@ -125,9 +126,9 @@ const About = () => {
                             Programming Languages
                         </div>
                         <div className="w-4/5 md:w-2/3 text-sm md:text-lg text-center  p-2 mx-4">
-                            <span className="px-3" > C++ </span>
-                            <span className="px-3" > JAVA </span>
-                            <span className="px-3" > Python </span>
+                            <span className="px-1" > C++ </span>
+                            <span className="px-1" > JAVA </span>
+                            <span className="px-1" > Python </span>
 
                         </div>
 

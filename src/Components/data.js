@@ -1,12 +1,8 @@
 const projects=[
-    {
-        title:"Daily Journal",
-        desc:"Daily Journal is a Blog website created using by Express.js and node.js where you can write your blog and post it.",
-        link:"https://fathomless-springs-84190.herokuapp.com/"
-    }, {
+     {
         title:"Tictactoe Game",
         desc:"Tictactoe game is created using React.js with some modifications.",
-        link:"https://timepasstictactoe.herokuapp.com/"
+        link:"https://tictactoe-game-silk.vercel.app/"
     }, {
         title:"Restaurant Order Management",
         desc:"This is a frontend website created in React.js from where you can order food",
@@ -26,11 +22,19 @@ const projects=[
     },{
         title:"Text Tanslator",
         desc:"In this website it uses google API to translate english text to many different languages.",
-        link:"https://react-widgets53.herokuapp.com/translate"
+        link:"https://react-widgets-one.vercel.app/translate"
+    },{
+        title:"Daily Journal",
+        desc:"Daily Journal is a Blog website created using by Express.js and node.js where you can write your blog and post it.",
+        link:"https://fathomless-springs-84190.herokuapp.com/"
     },{
         title:"Wikipedia Search",
         desc:"In this website it searches from Wikipedia API and give result from wikipedia.",
-        link:"https://react-widgets53.herokuapp.com/search"
+        link:"https://react-widgets-one.vercel.app/search"
+    },{
+        title:"Image Search",
+        desc:"In this website it searches fetches images using axios from unsplash server.",
+        link:"https://searchpics.vercel.app/"
     },
 ]
 
