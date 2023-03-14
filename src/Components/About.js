@@ -22,16 +22,45 @@ const About = () => {
 
 
             <div className="">
+                <h1 className="text-center text-4xl font-light mt-8">Experience</h1>
+                <p className="text-base font-extralight text-center mb-6">Through Interships</p>
+                <div>
+                    <div className="flex  my-2 shadow-lg hover:shadow-2xl m-4 p-2 md:mx-24 md:py-4 ">{/*  primary */}
+                        <div className="ml-4 w-2/5 text-lg font-medium items-center flex justify-center md:text-xl  font-normal text-center">
+                            <div>
+                                Web Development
+                                <br />
+                                <p className="text-sm md:text-base mt-1 font-light">( Dec 2022 - Feb 2023 )</p>
+
+                            </div>
+
+
+                        </div>
+                        <div className="w-3/5 text-lg md:text-xl text-center  p-2 mx-4">
+                            vCreaTek Consulting Services Pvt Ltd
+                            <br ></br>
+                            <div className="text-sm md:text-base mt-2 font-light">During this Intership, I created FrontEnd of Neerathon website in ReactJS.</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <hr className="border-t-2 border-yellow-400 w-2/3 m-auto my-14 -dotted" />
+
+
+            <div className="">
                 <h1 className="text-center text-4xl font-light mt-8">Educational History</h1>
                 <p className="text-base font-extralight text-center mb-6">Learning and Living</p>
                 <div>
                     <div className="flex  my-2 shadow-lg hover:shadow-2xl m-4 p-2 md:mx-24 md:py-4 ">{/*  primary */}
-                        <div className="ml-4 w-2/5 text-lg items-center flex justify-centermd:text-xl  font-normal text-center">
+                        <div className="ml-4 w-2/5 text-lg items-center flex justify-center md:text-xl  font-normal text-center">
                             B.E., Information Technology
                         </div>
                         <div className="w-3/5 text-sm md:text-base text-center  p-2 mx-4">
                             Pune Institute of Computer Technology, Pune
                             <br />
+
                             2021 - 2024(Expected)
                         </div>
                     </div>
@@ -57,9 +86,13 @@ const About = () => {
                 <div>
                     <div className="flex  my-4 shadow-lg hover:shadow-2xl m-4 p-2 md:mx-24 md:py-6 ">{/*  primary */}
                         <div className="ml-4 w-2/5 text-sm flex items-center justify-center md:text-xl  font-normal text-center">
-                            Complete Web Development Bootcamp.
-                            <br />
-                            ( May 2021 - Present )
+                            <div>
+                                Complete Web Development Bootcamp.
+                                <br />
+                                <p className="text-sm md:text-base mt-1 font-light">( May 2021 - Jan 2022 )</p>
+
+                            </div>
+
                         </div>
                         <div className="w-3/5 text-sm md:text-base text-center  p-2 mx-4">
                             A Udemy course of Web Development by Dr. Angela Yu. In this course, I am learnt about languages such as HTML, CSS, JavaScript and also Node.js and Express.js.
@@ -67,9 +100,12 @@ const About = () => {
                     </div>
                     <div className="flex my-4 shadow-lg hover:shadow-2xl m-4 p-2 md:mx-24 md:py-6 ">{/*  secondary */}
                         <div className="ml-4 w-2/5 text-sm flex items-center justify-center md:text-xl font-normal text-center ">
-                            The Complete 2021 Flutter Development Bootcamp With Dart
-                            <br />
-                            ( Mar 2022 - Present )
+                            <div>
+                                The Complete 2021 Flutter Development Bootcamp With Dart
+                                <br />
+                                <p className="text-sm md:text-base mt-1 font-light">( Mar 2022 - Nov 2022 )</p>
+                            </div>
+
                         </div>
                         <div className="w-3/5 text-sm md:text-base text-center  p-2 mx-4">
                             In this course I am learning about Flutter and Dart by making some small projects under guidance of Dr. Angela Yu.
@@ -138,7 +174,7 @@ const About = () => {
             </div>
 
             <div className="text-center mb-4 mt-12 md:mt-2">
-                <a href ="./myresume_19_8_22.pdf" className="  text-yellow-400 border-yellow-400 text-2xl shadow-lg hover:shadow-2xl  p-4" attributes-list download ="MohammedHusainResume" > Download Resume </a>  
+                <a href="./myresume_14_3_23.pdf" className="  text-yellow-400 border-yellow-400 text-2xl shadow-lg hover:shadow-2xl  p-4" attributes-list download="MohammedHusainResume" > Download Resume </a>
             </div>
         </div>
     )
