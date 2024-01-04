@@ -174,7 +174,7 @@ const About = () => {
             </div>
 
             <div className="text-center mb-4 mt-12 md:mt-2">
-                <a href="./myresume_14_3_23.pdf" className="  text-yellow-400 border-yellow-400 text-2xl shadow-lg hover:shadow-2xl  p-4" attributes-list download="MohammedHusainResume" > Download Resume </a>
+                <a href="./I2K20103061_MohammedHusain_Resume.pdf" className="  text-yellow-400 border-yellow-400 text-2xl shadow-lg hover:shadow-2xl  p-4" attributes-list download="MohammedHusainResume" > Download Resume </a>
             </div>
         </div>
     )
