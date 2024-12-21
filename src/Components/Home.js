@@ -4,7 +4,9 @@ import { projects } from "./data";
 
 const Home = () => {
     const [state, setState] = useState("");
-    var bio2 = `I am a frontend and backend web developer, with a year of experience. I have develop many websites using MERN technology.`;
+    var bio2 = `I’m Mohammed Husain, a Product Developer at Acuitas360 and a frontend web developer .
+
+I’m passionate about solving problems, building impactful solutions, and leveraging modern technologies to drive innovation. As a tech enthusiast, I’m exploring the world of AI while utilizing my expertise in data tools and frontend development.`;
     useEffect(() => {
         var i = 0;
         var speed = 30;
@@ -43,7 +45,7 @@ const Home = () => {
                     <img src="./images/myphoto.png" className="w-96 m-auto items-center" />
                 </div>
                 <div className="md:w-3/5 m-4 mt-16 h-32">
-                    <p className="md:text-xl text-lg font-light md:p-8">Hey there,
+                    <p className="md:text-lg text-base font-medium text-gray-600 md:p-8">Hey there,
                     <br/>
                     {state}</p>
                 </div>
@@ -57,23 +59,16 @@ const Home = () => {
                     Previous Projects
                 </h1>
                 <div className="grid grid-cols-1 md:grid-cols-2  place-items-center ">
-                    <div className="w-5/6 m-auto text-center shadow-lg hover:shadow-2xl mt-4 mb-4 md:mb-1">
-                        <h1 className="text-xl font-normal">Daily Journal</h1>
-                        <hr className="border-b border-yellow-400 my-2 w-5/6 m-auto" />
-                        <p className="text-base p-2 ">
-                            Daily Journal is a Blog website created using by Express.js and node.js
-                            where you can write your blog and post it.
-                        </p>
-                        <a href="https://fathomless-springs-84190.herokuapp.com/" target="_blank" className="text-lg hover:font-semibold  hover:text-yellow-400">Check It</a>
-                    </div>
-                    <div className="w-5/6 text-center shadow-lg hover:shadow-2xl mt-4 mb-4 md:mb-1">
+                {project}
+                  
+                    {/* <div className="w-5/6 text-center shadow-lg hover:shadow-2xl mt-4 mb-4 md:mb-1">
                         <h1 className="text-xl font-normal">Tictactoe Game</h1>
                         <hr className="border-b border-yellow-400 my-2 w-5/6 m-auto" />
                         <p className="text-base p-2 ">
                             Tictactoe game is created using React.js with some modifications.
                         </p>
                         <a href="https://timepasstictactoe.herokuapp.com/" target="_blank" className="text-lg hover:font-semibold hover:text-yellow-400">Check It</a>
-                    </div>
+                    </div> */}
 
                 </div>
                 <div className="">
