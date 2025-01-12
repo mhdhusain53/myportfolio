@@ -107,7 +107,6 @@ const About = () => {
 
                             </div>
 
-
                         </div>
                         <ul className="w-2/3 text-sm text-left  p-2 mx-4 list-disc list-inside">
                         <li className="py-0.5">
